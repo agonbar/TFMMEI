@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4eb081f31abe04096499f2082c11f6, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: de7dbb407cd35244890b35d28e39f19d, type: 3}
+  m_Name: HouseKey
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 0
-  coins: 0
+  itemSprite: {fileID: 21300000, guid: e3738df4568322746868581fb689c75f, type: 3}
+  itemDescription: "Vaya, parece que has encontrado una llave, \xBFqu\xE9 abrir\xE1?"
+  isKey: 1

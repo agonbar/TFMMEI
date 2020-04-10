@@ -19,7 +19,14 @@ public class Door : Interactable
     public SpriteRenderer doorSpriteChild;
     public BoxCollider2D physicsCollider;
     public BoxCollider2D cueCollider;
+    public BoolValue storedOpen;
 
+    // Use this for initialization
+    void Start () {
+		if(storedOpen.RuntimeValue) {
+            Open();
+        }
+	}
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
@@ -48,10 +55,29 @@ public class Door : Interactable
         //turn off the door's box collider
         physicsCollider.enabled = false;
         cueCollider.enabled = false;
+        storedOpen.RuntimeValue = open;
     }
 
     public void Close()
     {
 
+    }
+
+        private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger && playerInventory.numberOfKeys > 0)
+        {
+            context.Raise();
+            playerInRange = true;
+        }
+    }
+
+        private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger && playerInventory.numberOfKeys > 0)
+        {
+            context.Raise();
+            playerInRange = false;
+        }
     }
 }

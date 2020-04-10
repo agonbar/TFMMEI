@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4eb081f31abe04096499f2082c11f6, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: c8d168c29ddf15e469cfc3b44da06a7d, type: 3}
+  m_Name: DoorInitialHouse
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 0
-  coins: 0
+  initialValue: 0
+  RuntimeValue: 0
