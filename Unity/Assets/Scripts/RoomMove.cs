@@ -27,6 +27,7 @@ public class RoomMove : MonoBehaviour {
     {
         if(other.CompareTag("Player"))
         {
+            cam.smoothing = 0.1f;
             cam.minPosition += cameraChange;
             cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
@@ -34,8 +35,14 @@ public class RoomMove : MonoBehaviour {
             {
                 StartCoroutine(placeNameCo());
             }
-
+            StartCoroutine(defaultCamSpeed(cam));
         }
+    }
+
+    private IEnumerator defaultCamSpeed(CameraMovement cam)
+    {
+        yield return new WaitForSeconds(0.9f);
+        cam.smoothing = 1f;
     }
 
     private IEnumerator placeNameCo()
