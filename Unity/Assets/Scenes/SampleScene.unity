@@ -26472,7 +26472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: HouseInterior
-  playerPosition: {x: 0, y: -2.5}
+  playerPosition: {x: 0, y: -3}
   playerStorage: {fileID: 11400000, guid: 5c6d7db81472ccd458550b62654c2458, type: 2}
   fadeInPanel: {fileID: 1227107020283013669, guid: 54d2758dc1a3840408bc20b21b7fa013,
     type: 3}
