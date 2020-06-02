@@ -1,0 +1,546 @@
+body {
+    background: url(../img/backgroundSTEAM.png) #899eb0 fixed center center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.mobile_only {
+    padding: 0px;
+}
+
+.text_style {
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    color: #d4ddde;
+    text-shadow: #2a3441 0px 2px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+a:focus,
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headerimg {
+    position: relative;
+    margin: auto;
+}
+
+.owlnav {
+    background: transparent;
+    border: none;
+    margin-top: -40px;
+}
+
+.owlnav .navbar-collapse {
+    text-align: center;
+}
+
+.owlnav .navbar-nav {
+    float: none;
+    margin: 0;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.owlnav .navbar-nav>li>a {
+    color: #777;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+    display: block;
+    float: none;
+}
+
+.owlnav .nav>li>a>img {
+    max-width: none;
+    width: 100%;
+    height: 55px;
+}
+
+bootstrap.css:6754 .nav>li>a>img {
+    max-width: none;
+}
+
+bootstrap.css:6754 .carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+bootstrap.css:6754 img {
+    vertical-align: middle;
+}
+
+bootstrap.css:6754 img {
+    border: 0;
+}
+
+.center1 {
+    margin-bottom: -40px;
+}
+
+.rightcontainer1 {
+    padding: 0px 20px !important;
+}
+
+bootstrap.css:6754 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+Inherited from a bootstrap.css:6754 .navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+}
+
+style.css:44 .owlnav .navbar-nav>li>a {
+    color: #777;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+    display: block;
+    float: none;
+}
+
+bootstrap.css:6754 .navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+
+bootstrap.css:6754 .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+style.css:28 a:focus,
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+bootstrap.css:6754 a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+style.css:17 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+bootstrap.css:6754 a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+Inherited from li user agent stylesheet li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+Inherited from ul.nav.navbar-nav bootstrap.css:6754 .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+style.css:104 ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+user agent stylesheet ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+Inherited from body bootstrap.css:6754 body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+Inherited from html bootstrap.css:6754 html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+bootstrap.css:6754 html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+Pseudo ::before element bootstrap.css:6754:after,
+ :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+Pseudo ::after element bootstrap.css:6754:after,
+ :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+}
+.owlnav .navbar-nav {
+    margin: 0px;
+}
+.headerimg2 {
+    position: relative;
+    margin: auto;
+}
+.text-center {
+    display: block;
+}
+.rightcontainer,
+.leftcontainer {
+    background-image: url(../img/marco_bg.png);
+    padding: 10px 20px;
+    background-size: contain;
+}
+.videobg {
+    background-image: url(../img/video_bg.png);
+    width: 100%;
+}
+.marco {
+    width: 100%;
+}
+.social_list {
+    position: relative;
+    top: 80px;
+}
+.social_list ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.social_list ul li {
+    display: -webkit-inline-box;
+    padding-right: 2px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#widget {
+    border: 1px solid #4d4b49;
+    background-color: #262626;
+    /* width: 614px; */
+    
+    padding: 10px 15px;
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../img/SteamPistonForWidget.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 0px -20px;
+    text-align: center;
+}
+#widget h1.main_text {
+    color: #fefefe;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 425px;
+}
+#widget h1 {
+    font-size: 23px;
+    font-weight: normal;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 28px;
+}
+#widget h1 em {
+    font-weight: normal;
+    font-style: normal;
+    color: #9e9e9e;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+}
+#widget .desc {
+    margin: 10px 10px 0 0;
+    font-size: 13px;
+    color: #c9c9c9;
+    line-height: 16px;
+    max-height: 96px;
+    overflow: hidden;
+    text-align: left;
+}
+#widget .capsule {
+    position: relative;
+    margin: auto;
+}
+.desc p {
+    color: #c9c9c9;
+    overflow: hidden;
+    height: 18px;
+}
+#widget .game_area_purchase_platform {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+span.platform_img.win {
+    background-image: url(../img/platform_win.png);
+}
+span.platform_img {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+img.platform_small,
+.platform_img {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+img.platform_small,
+.platform_img {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+.game_purchase_action_bg {
+    height: 40px;
+    background-color: #3c3d3e;
+    padding: 3px 3px 3px 0px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    width: 198px;
+}
+.game_purchase_action .game_purchase_price {
+    background-color: #000000;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 34px;
+}
+.game_purchase_action .game_purchase_price,
+.game_purchase_action .game_purchase_discount,
+.game_purchase_action .btn_addtocart,
+.game_purchase_action .btn_packageinfo,
+.game_purchase_action .game_purchase_action_bg .game_purchase_action .game_purchase_action_qty {
+    float: left;
+    margin-left: 3px;
+}
+.btn_addtocart {
+    position: relative;
+    height: 34px;
+}
+.btn_addtocart .btn_addtocart_left,
+.btn_addtocart .btn_addtocart_right {
+    position: absolute;
+    width: 2px;
+    height: 34px;
+    top: 0px;
+    background-image: url(../img/btn_addtocart_corners.gif);
+}
+.btn_addtocart .btn_addtocart_content {
+    display: inline-block;
+    height: 34px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 11px;
+    line-height: 34px;
+    background-image: url(../img/btn_addtocart_repeat.gif);
+    background-repeat: repeat-x;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#widget .game_purchase_action {
+    position: absolute;
+    bottom: -20px;
+}
+.twitter-timeline {
+    color: #4d0a77;
+}
+.twitter-timeline:hover {
+    color: red;
+}
+.down-widget {
+    text-align: center;
+}
+.widget1 {
+    margin: 0px !important;
+}
+.widget1 .capsule {
+    float: left;
+}
+#widget .game_purchase_action {
+    right: 20px;
+}
+.widget1 .desc p {
+    overflow: visible;
+}
+.widget1 {
+    text-align: left !important;
+}
+.worldimg {
+    margin-bottom: 0px;
+}
+.down-widget img {
+    display: inline-block;
+}
+.worldimgtext {
+    background-image: url(../img/back-title.png);
+    background-repeat: repeat-x;
+    position: relative;
+    top: -20px;
+    overflow-x: hidden;
+    font-family: 'Righteous';
+    color: #d4ddde;
+    margin-bottom: 0;
+    font-size: 13px;
+    height: 20px;
+    padding: 0px 10px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.filter {
+    width: 140px;
+    margin-bottom: 10px;
+}
+.paddingbot {
+    padding-bottom: 0px;
+}
+@media (min-width: 769px) {
+    .btn_addtocart .btn_addtocart_content {
+        font-size: 9px;
+    }
+    
+    .game_purchase_action .game_purchase_price {
+        font-size: 12px;
+    }
+    
+    .game_purchase_action_bg {
+        width: 182px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav>li {
+        float: none;
+        display: inline-block;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .owlnav .navbar-nav>li>a {
+        color: #777;
+        padding: 5px;
+        position: relative;
+        margin: auto;
+        display: inline-block;
+        width: 33%
+    }
+    
+    .worldimg {
+        height: auto;
+        margin-bottom: 0px;
+    }
+    
+    .owlnav .nav>li {
+        position: relative;
+        display: inline;
+        text-align: center;
+    }
+    
+    .owlnav .nav>li>a>img {
+        max-width: none;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    #widget .game_purchase_action {
+        position: relative;
+        bottom: -20px;
+        right: 0px;
+    }
+    
+    .marco2 {
+        margin-top: 60px;
+    }
+    
+    .game_purchase_action .game_purchase_price {
+        font-size: 12px;
+    }
+    
+    #widget .game_area_purchase_platform {
+        bottom: 50px;
+    }
+    
+    #widget h1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .text_style {
+        font-family: 'Righteous', cursive;
+        font-size: 12px;
+        color: #d4ddde;
+        text-shadow: #2a3441 0px 2px 0px;
+    }
+}
+@media (max-width: 480px) {
+    .mobile_only {
+        display: block;
+    }
+}
